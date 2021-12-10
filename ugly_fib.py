@@ -1,40 +1,17 @@
-from pathlib import Path as m
-from builtins import sum as n
-from builtins import len as o
-from builtins import open as p
-from builtins import chr as r
-from builtins import ord as s
-from builtins import str as t
-from builtins import int as u
-from builtins import range as w
+from ugly_imports import *
 
 
-def x(a, *b, **c):
-    return a.unlink(*b, **c)
-
-
-def y(a, *b, **c):
-    return a.write(*b, **c)
-
-
-def z(a, *b, **c):
-    return a.join(*b, **c)
-
-
-def q(a, *b, **c):
-    return a.read(*b, **c)
-
-
-def fibonacci(f=None):
+def fibonacci(f=0xA):
     """Have a nice reading"""
-    if f <= 0:
+    if E(f, 0b11 >> 1) <= s("\x00"):
         return
-    a, b, l, k = "a", "b", 0, "l"
+    l, k, F = u(C(None)), A[11], B(A[:2])
+    a, b = F
     try:
         x(m(k))
     except:
         print(f"This code is beautiful")
-    for e in w(f or 10):
+    for e in w(u(f) if H(f) is u else G(f)):
         c = {"a": a, "b": b}
         with p(k, "a") as e:
             for h in ("a", "b"):
@@ -45,7 +22,7 @@ def fibonacci(f=None):
             l += o(c[i[-2]]) + o(c[i[-1]])
         yield n(u(j) for j in c[r(0o141)])
         d = b
-        b = a + d
+        b = D(t(), (a, d))
         a = d
 
 
